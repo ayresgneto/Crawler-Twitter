@@ -11,6 +11,7 @@ Jupyter notebook desenvolvido para realizar o play da extração. A limpeza, org
 Tecnologias envolvidas:
 Python 3.7.7, 
 SQL Server 2019, 
+SQL Management Studio, 
 API Twitter, 
 VSCode, 
 Jupyter Notebook
