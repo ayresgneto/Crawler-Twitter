@@ -2,7 +2,7 @@ import json
 from tweepy import OAuthHandler, Stream, StreamListener
 from datetime import datetime
 
-#Cadastrar chaves de acesso
+#Cadastrar chaves de acesso (Criptografadas)
 
 28b14ec78c9c9b048dbf79325a61644147b9a2fbde519c42eef48b021a44a7bb8e785f4d04c
 332c3dba8b530c84aa1f550a77b55037ce112ec4038c9730a0a19263cd22d3b14cba798ca0720
@@ -33,7 +33,8 @@ if __name__ == "__main__":
     l = MyListener()
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(acess_token, acess_token_secret)
-
+    
+    #Busca por palavra-chave
     stream = Stream(auth, l)
     stream.filter(track=["Trump"])
 
