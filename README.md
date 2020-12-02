@@ -9,9 +9,9 @@ Arquivo: extract_analyze_tweets.ipynb
 Jupyter notebook desenvolvido para realizar o play da extração. A limpeza, organização, tratamento, e carga dos dados extraídos em uma tabela do SGBD SQL Server
 
 Tecnologias envolvidas:
-Python 3.7.7
-SQL Server 2019
-API Twitter
-VSCode
+Python 3.7.7, 
+SQL Server 2019, 
+API Twitter, 
+VSCode, 
 Jupyter Notebook
 
